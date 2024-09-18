@@ -1,0 +1,67 @@
+1. Can you please introduce yourself and your project?
+2. So how are you scaling this project?
+3. Why are you using microservice architecture and not monolithic architecture?
+4. Which architecture would you choose, if you had to work on a project from scratch, monolithic or micro-services?
+5. which java version you are using for your project? and Why (features) did you decided to use it?
+6. What is the benefit of stream api?
+7. Is there any benefit of using stream api?
+8. How do you validate data?
+9. Can you give me some custom exception name that you guys are throwing in your project?
+10. Whats the difference between pass by reference and pass by value?
+11. Can we modify the behaviour of pass by value in java?
+12. Do you know imports and static imports in java?
+13. What are the access specifiers available in java? and What are their purposes?
+14. How do access specifiers enforce encapsulation?
+15. Have you used list,set and map in your project?
+16. Can you tell me the differences between them?
+17. When would you used these collections in real world scenario?
+18. Do you know the difference between synchronize and concurrent collections?
+19. Can you tell me a scenario where you would prefer a synchronize and a concurrent collection?
+20. Can you tell me the difference between shorted and ordered collections?
+21. What is a null point exception? 
+22. How can we prevent null pointer exception?
+23. Do you know type casting in java?
+24. Which exceptions are thrown, if there an error while casting?
+25. Can you tell me the difference between JDK, JVM, and JRE?
+26. Can a machine have multiple JDK,and JRE installed?
+27. Whats the difference between Stack and Heap?
+28. And How they are used in java memory management?
+29. What kind of variables are stored in stack vs heap?
+30. What error do you face with stack and heap memory?
+31. Whats the difference between abstract and interface class in java?
+32. Can you convert an abstract class to interface and vice versa?
+33. In what kind of condition we choose an abstract and interface class?
+34. Do you know about concurrent hashMap?
+35. When to use linked list over arrayList?
+36. What's the difference between loose coupling and tight coupling?
+37. What are the modules of SpringBoot?
+38. What is a springbean?
+39. What is IoC and DI?
+40. Do you know about scopes? And in which scenario we use singleton and prototype scopes?
+41. What is default bean scope in springboot?
+42. Are singleton bean threads safe?
+43. Can we have multiple configuration files in a single project?
+44. How would you manage dependency management for clean code and loose coupling?
+45. What are springboot starter dependencies?
+46. How does springboot application gets started from beginning?
+47. What does @SpringBootApplication annotation do internally?
+48. Can we disable auto configuration?
+50. What is dependency management?
+51. Is it possible to change default server port?
+52. Whats the difference between requestMapping and getMapping?
+53. How do you test your springboot application?
+54. What is the purpose of unit testing in software development.
+55. How does junit and Mockito helps in unit testing?
+56. Can you tell the difference between mock and injectMock annotations?
+57. Whats the role of annotation @SpringTest?
+58. How do you handle exceptions?
+59. Can you explain the pom.xml file in a maven project?
+60. How auto configuration play an important role in springboot application?
+61. Can we create a specific auto configuration? or can we costamize the existing one?
+62. How do we disable auto-configuration?
+63. Have you utilized caching in your project?
+64. Which cache have you used? How did you implemented it?
+65. Have you used kafka?
+66. Lets say your springboot application is facing performance issue under high load. What are the steps that you would take to identify and address the issue?
+67. Have you done versioning in rest api's?
+68. What are the best practices of versioning?
