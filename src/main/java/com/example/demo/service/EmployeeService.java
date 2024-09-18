@@ -28,7 +28,9 @@ public class EmployeeService {
     }
 
     public List<Employee> getListOfEmployees() {
-        return employeeRepository.findAll();
+        List<Employee> employees = employeeRepository.findAll();
+        System.out.println("Getting data from db"+employees);
+        return employees;
     }
 
     public String deleteEmployee(int id) {
@@ -59,5 +61,9 @@ public class EmployeeService {
         else {
             throw new RuntimeException("No such employee is present");
         }
+    }
+
+    public List<Employee> getByAddress(String address) {
+        return employeeRepository.findByAddress(address);
     }
 }

@@ -23,6 +23,11 @@ public class EmployeeController {
         return employeeService.getById(id);
     }
 
+    @GetMapping("/getaddress/{address}")
+    public List<Employee> getEmployeeByAddress(@PathVariable String address){
+        return employeeService.getByAddress(address);
+    }
+
     @GetMapping("/get")
     public List<Employee> getAllEmployees(){
         return employeeService.getListOfEmployees();
